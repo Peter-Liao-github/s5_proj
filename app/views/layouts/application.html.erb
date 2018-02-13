@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>S5Proj</title>
+    <title>S5超新科技-變距產品的專家</title>
     <%= csrf_meta_tags %>
 
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
@@ -9,6 +9,33 @@
   </head>
 
   <body>
+    <div class="container header">
+      <div class="logo"></div>
+        <ul>
+          <li>帳號</li>
+          <li>密碼</li>
+          <li><button>登入</button></li>
+        </ul>
+    </div>
+    
+    <div class="container tabs">
+      <ul>
+        <li>首頁</li>
+        <li>產品一覽</li>
+        <li>產品資訊</li>
+        <li>客製化選用表</li>
+      </ul>
+    </div>
+
     <%= yield %>
+
+    <div class="container footer">
+      <ul>
+        <li>首頁</li>
+        <li>產品一覽</li>
+        <li>產品資訊</li>
+        <li>客製化選用表</li>
+      </ul>
+    </div>
   </body>
 </html>
