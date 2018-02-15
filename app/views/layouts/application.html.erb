@@ -9,27 +9,31 @@
   </head>
 
   <body>
-    <div class="container header">
-      <div class="logo"></div>
-        <ul>
+    <!--Navbar-->
+    <div class="my-container my-header">
+      <a href="#" id="top-logo">S5超新科技logo位置</a>
+        <ul class="float-right">
           <li>帳號</li>
           <li>密碼</li>
           <li><button>登入</button></li>
         </ul>
     </div>
-    
-    <div class="container tabs">
-      <ul>
-        <li>首頁</li>
-        <li>產品一覽</li>
-        <li>產品資訊</li>
-        <li>客製化選用表</li>
-      </ul>
+    <div class="clearfix"></div>
+    <!--Tabs-->
+    <div class="my-tabs">
+      <div class="my-container">
+        <ul class="my-tabs">
+          <li>首頁</li>
+          <li>產品一覽</li>
+          <li>產品資訊</li>
+          <li>客製化選用表</li>
+        </ul>
+      </div>
     </div>
 
     <%= yield %>
-
-    <div class="container footer">
+    <!--Footer-->
+    <div class="my-container my-footer">
       <ul>
         <li>首頁</li>
         <li>產品一覽</li>

@@ -1,0 +1,45 @@
+.my-container {
+  max-width: 1024px;
+  margin: 0px auto;
+}
+
+.my-header {
+  padding: 5px 0px;
+  margin: 5px auto;
+
+}
+
+.float-right {
+  float: right;
+}
+
+ul>li {
+  display: inline;
+}
+
+.my-tabs {
+  background-color: #999;
+  padding-bottom: 1px;
+}
+
+ul {
+  padding-left: 0px;
+  margin-bottom: 2px;
+}
+
+.my-tabs>li {
+  background-color: white;
+  padding: 8px;
+  font-size: medium;
+}
+
+.my-tabs>li:hover {
+  border-bottom: 2px solid;
+  border-bottom-color: blue;
+}
+
+.my-footer {
+  text-align: center;
+  margin: 0 auto;
+
+}
