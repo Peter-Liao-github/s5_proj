@@ -18,28 +18,33 @@ ul>li {
 }
 
 .my-tabs {
-  background-color: #999;
+  background-color: rgb(245, 245, 245);
+  padding-top: 4px;
   padding-bottom: 1px;
 }
 
 ul {
   padding-left: 0px;
-  margin-bottom: 2px;
+  margin-bottom: 5px;
 }
 
 .my-tabs>li {
-  background-color: white;
+  background-color: rgb(245, 245, 245);
   padding: 8px;
   font-size: medium;
+  font-weight: bolder;
 }
 
 .my-tabs>li:hover {
-  border-bottom: 2px solid;
+  border-bottom: 3px solid;
   border-bottom-color: blue;
 }
 
 .my-footer {
   text-align: center;
   margin: 0 auto;
+}
 
+.my-footer>li {
+  padding: 1px 2px;
 }
