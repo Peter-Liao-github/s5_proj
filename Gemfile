@@ -39,7 +39,7 @@ gem 'jbuilder', '~> 2.5'
 
 group :production do
   # Use PostgreSQL as the database
-  gem 'pg'
+  gem 'pg', '~>0.18'
 end
 
 group :development, :test do
