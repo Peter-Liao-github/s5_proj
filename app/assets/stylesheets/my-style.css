@@ -1,12 +1,19 @@
 .my-container {
-  max-width: 1024px;
+  max-width: 1280px;
   margin: 0px auto;
 }
 
 .my-header {
   padding: 5px 0px;
   margin: 5px auto;
+  height: 48px;
+}
 
+#top-logo {
+  float: left;
+  background-color: yellow;
+  width: 240px;
+  height: 42px;
 }
 
 .float-right {
@@ -18,24 +25,36 @@ ul>li {
 }
 
 .my-tabs {
-  background-color: rgb(245, 245, 245);
-  padding-top: 4px;
+  /* background-color: rgb(245, 245, 245); */
+  background: -moz-linear-gradient(rgb(255, 255, 255),rgb(225, 225, 225));
+  background: -webkit-linear-gradient(rgb(255, 255, 255),rgb(225, 225, 225));
+  background: linear-gradient(rgb(255, 255, 255),rgb(225, 225, 225));
+  height: 48px;
+  padding-top: 8px;
   padding-bottom: 1px;
+  border-top: 2px solid rgb(225, 225, 225);
 }
 
 ul {
   padding-left: 0px;
-  margin-bottom: 5px;
+  /* margin-bottom: 5px; */
 }
 
-.my-tabs>li {
-  background-color: rgb(245, 245, 245);
-  padding: 8px;
+.my-tabs-ul {
+  margin-top: 4px;
+}
+
+.my-tabs-ul>li {
+  background-color: rgba(245, 245, 245, 0);
+  margin-bottom: 0px;
+  padding: 12px;
   font-size: medium;
   font-weight: bolder;
+  border-left: 1px solid rgb(225, 225, 225);
+  border-right: 1px solid rgb(225, 225, 225);
 }
 
-.my-tabs>li:hover {
+.my-tabs-ul>li:hover {
   border-bottom: 3px solid;
   border-bottom-color: blue;
 }
@@ -47,4 +66,10 @@ ul {
 
 .my-footer>li {
   padding: 1px 2px;
+}
+
+.about-company {
+  background-color: yellow;
+  margin: 8px 0px;
+  padding-bottom: 96px;
 }
