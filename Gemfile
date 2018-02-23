@@ -13,7 +13,7 @@ gem 'puma', '~> 3.7'
 # Use bootstrap 4 for stylesheets
 gem 'bootstrap', '~> 4.0.0'
 # Use bootstrap-sass for stylesheets
-gem 'bootstrap-sass', '~> 3.3.7'
+# gem 'bootstrap-sass', '~> 3.3.7'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
 # Use BS JS(jQuery) for stylesheets
