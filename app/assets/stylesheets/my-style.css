@@ -20,6 +20,10 @@
   float: right;
 }
 
+.float-left {
+  float: left;
+}
+
 ul>li {
   display: inline;
 }
@@ -61,15 +65,43 @@ ul {
 
 .my-footer {
   text-align: center;
-  margin: 0 auto;
+  margin: 4px auto;
 }
 
 .my-footer>li {
   padding: 1px 2px;
 }
 
+/*index stylesheet*/
+
 .about-company {
   background-color: yellow;
   margin: 8px 0px;
   padding-bottom: 96px;
+}
+
+.block-in-container {
+  background-color: rgb(240, 240, 240);
+  margin: 20px auto;
+  padding: 8px 16px;
+
+}
+
+.news-block {
+  width: 880px;
+  height: 360px;
+}
+
+.block-in-container h2 {
+  border-bottom: 2px solid blue;
+}
+
+.news-text {
+  height: 300px;
+  overflow-y: auto;
+}
+
+.contact {
+  width: 360px;
+  height: 360px;
 }
