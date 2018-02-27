@@ -51,11 +51,16 @@ ul {
 .my-tabs-ul>li {
   background-color: rgba(245, 245, 245, 0);
   margin-bottom: 0px;
-  padding: 12px;
+  padding: 12px 12px 10px 12px;
   font-size: medium;
   font-weight: bolder;
   border-left: 1px solid rgb(225, 225, 225);
   border-right: 1px solid rgb(225, 225, 225);
+}
+
+.de-a-decorated>li>a,.de-a-decorated>li>a:hover,.de-a-decorated>li>a:visited {
+  color: black;
+  text-decoration: none;
 }
 
 .my-tabs-ul>li:hover {
