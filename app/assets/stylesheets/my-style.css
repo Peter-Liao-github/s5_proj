@@ -1,12 +1,12 @@
 .my-container {
-  max-width: 1280px;
+  max-width: 1024px;
   margin: 0px auto;
 }
 
 .my-header {
-  padding: 5px 0px;
-  margin: 5px auto;
-  height: 48px;
+  padding: 4px 0px;
+  margin: 4px auto;
+  height: 38px;
 }
 
 #top-logo {
@@ -33,9 +33,9 @@ ul>li {
   background: -moz-linear-gradient(rgb(255, 255, 255),rgb(225, 225, 225));
   background: -webkit-linear-gradient(rgb(255, 255, 255),rgb(225, 225, 225));
   background: linear-gradient(rgb(255, 255, 255),rgb(225, 225, 225));
-  height: 48px;
-  padding-top: 8px;
-  padding-bottom: 1px;
+  height: 38px;
+  padding-top: 3px;
+  padding-bottom: 2px;
   border-top: 2px solid rgb(225, 225, 225);
 }
 
@@ -45,14 +45,14 @@ ul {
 }
 
 .my-tabs-ul {
-  margin-top: 4px;
+  margin-top: 3px;
 }
 
 .my-tabs-ul>li {
   background-color: rgba(245, 245, 245, 0);
   margin-bottom: 0px;
-  padding: 12px 12px 10px 12px;
-  font-size: medium;
+  padding: 8px 8px 6px 8px;
+  font-size: 0.9em;
   font-weight: bolder;
   border-left: 1px solid rgb(225, 225, 225);
   border-right: 1px solid rgb(225, 225, 225);
@@ -64,7 +64,7 @@ ul {
 }
 
 .my-tabs-ul>li:hover {
-  border-bottom: 3px solid;
+  border-bottom: 2px solid;
   border-bottom-color: blue;
 }
 /* product show */
@@ -74,21 +74,21 @@ ul {
 
 .product-show-block {
   display: none;
-  margin-top: -36px;
-  margin-left: 61px;
-  padding-top: 49px;
+  margin-top: -30px;
+  margin-left: 50px;
+  padding-top: 37px;
   position: absolute;
   z-index: 9;
   /* border: 2px solid black; */
-  width: 94px;
-  border-radius: 4px;
+  width: 79px;
 }
 
 .product-show-content {
   position: relative;
   background-color: rgb(200, 200, 200);
+  border-radius: 4px;
   height: 360px;
-  width: 1160px;
+  width: 920px;
 }
 
 .tab-product-show:active .product-show-block,.product-show-block:hover {
@@ -114,22 +114,22 @@ ul {
 .about-company {
   background-color: yellow;
   margin: 8px 0px;
-  padding-bottom: 96px;
+  padding-bottom: 76px;
 }
 
 .block-in-container {
   background-color: rgb(240, 240, 240);
-  margin: 20px auto;
-  padding: 8px 16px;
+  margin: 8px auto;
+  padding: 6px 12px;
 
 }
 
 .news-block {
-  width: 880px;
-  height: 360px;
+  width: 704px;
+  height: 350px;
 }
 
-.block-in-container h3 {
+.block-in-container h4 {
   border-bottom: 2px solid blue;
   padding-bottom: 8px;
 }
@@ -140,6 +140,6 @@ ul {
 }
 
 .contact {
-  width: 360px;
-  height: 360px;
+  width: 288px;
+  height: 350px;
 }
