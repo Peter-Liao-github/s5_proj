@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>S5超新科技-變距產品的專家</title>
+    <title>S5-NewUltra 超新科技-變距產品的專家</title>
     <%= csrf_meta_tags %>
 
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
@@ -28,7 +28,14 @@
       <div class="my-container">
         <ul class="my-tabs-ul de-a-decorated">
           <li> <a href="<% root_path %>">首頁</a> </li>
-          <li> <a href="">產品一覽</a> </li>
+          <!--product block-->
+          <li class="tab-product-show"><a href="#top-logo">產品一覽</a>
+            <div class="product-show-block">
+              <div class="product-show-content">
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere dolore officiis eos modi accusantium? Veniam quos quo explicabo deleniti consectetur nihil error similique omnis maxime ducimus. Rem corrupti quasi distinctio?</p>
+              </div>
+            </div>
+          </li>
           <li> <a href="">產品資訊</a> </li>
           <li> <a href="">客製化選用表</a> </li>
         </ul>
@@ -40,7 +47,7 @@
     <div class="my-container my-footer">
       <ul class="my-footer de-a-decorated">
         <li><a href="<% root_path %>">首頁</a> </li>
-        <li><a href="">產品一覽</a> </li>
+        <li class="tab-product-show"><a href="#">產品一覽</a></li>
         <li><a href="">產品資訊</a> </li>
         <li><a href="">客製化選用表</a> </li>
       </ul>

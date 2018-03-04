@@ -67,7 +67,39 @@ ul {
   border-bottom: 3px solid;
   border-bottom-color: blue;
 }
+/* product show */
+/* .my-tabs-ul>:nth-child(2):hover {
+  cursor: pointer;
+} */
 
+.product-show-block {
+  display: none;
+  margin-top: -36px;
+  margin-left: 61px;
+  padding-top: 49px;
+  position: absolute;
+  z-index: 9;
+  /* border: 2px solid black; */
+  width: 94px;
+  border-radius: 4px;
+}
+
+.product-show-content {
+  position: relative;
+  background-color: rgb(200, 200, 200);
+  height: 360px;
+  width: 1160px;
+}
+
+.tab-product-show:active .product-show-block,.product-show-block:hover {
+  display: block;
+}
+
+/* .product-show-block:hover {
+  display: block;
+} */
+
+/* footer */
 .my-footer {
   text-align: center;
   margin: 4px auto;
@@ -77,7 +109,7 @@ ul {
   padding: 1px 2px;
 }
 
-/*index stylesheet*/
+/* index stylesheet */
 
 .about-company {
   background-color: yellow;
@@ -97,12 +129,13 @@ ul {
   height: 360px;
 }
 
-.block-in-container h2 {
+.block-in-container h3 {
   border-bottom: 2px solid blue;
+  padding-bottom: 8px;
 }
 
 .news-text {
-  height: 300px;
+  height: 292px;
   overflow-y: auto;
 }
 
