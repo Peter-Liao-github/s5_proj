@@ -87,12 +87,25 @@ ul {
   position: relative;
   background-color: rgb(200, 200, 200);
   border-radius: 4px;
-  height: 360px;
+  /* height: 256px; */
   width: 920px;
+  padding: 24px 52px;
 }
 
 .tab-product-show:active .product-show-block,.product-show-block:hover {
   display: block;
+}
+
+.product-thumbnail {
+  display: inline-block;
+  margin: 6px;
+  border: 2px solid red;
+  width: 147px;
+  height: 207px;
+}
+
+.product-thumbnail h6 {
+  text-align: center;
 }
 
 /* .product-show-block:hover {
@@ -119,9 +132,12 @@ ul {
 
 .block-in-container {
   background-color: rgb(240, 240, 240);
-  margin: 8px auto;
+  margin: 8px auto 2px auto;
   padding: 6px 12px;
+}
 
+.block-in-container p {
+  font-size: 0.9em;
 }
 
 .news-block {
@@ -139,7 +155,12 @@ ul {
   overflow-y: auto;
 }
 
+.video-block {
+  width: 312px;
+  height: 188px;  
+}
+
 .contact {
-  width: 288px;
-  height: 350px;
+  width: 312px;
+  height: 152px;
 }
