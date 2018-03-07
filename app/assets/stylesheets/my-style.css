@@ -68,10 +68,6 @@ ul {
   border-bottom-color: blue;
 }
 /* product show */
-/* .my-tabs-ul>:nth-child(2):hover {
-  cursor: pointer;
-} */
-
 .product-show-block {
   display: none;
   margin-top: -30px;
