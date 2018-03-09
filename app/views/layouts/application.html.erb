@@ -14,7 +14,7 @@
   <body>
     <!--Navbar-->
     <div class="my-container my-header">
-      <a href="/"><div id="top-logo">S5超新科技logo位置</div></a>
+      <a href="/"><div id="top-logo"> <%= image_tag 'Logo橫向上架測試.png', class: "img-responsive center-block" %> </div></a>
         <ul class="float-right">
           <li>帳號</li>
           <li>密碼</li>
@@ -31,11 +31,9 @@
           <li class="tab-product-show"><a href="#top-logo">產品一覽</a>
             <div class="product-show-block">
               <div class="product-show-content de-a-decorated">
-                <a href=""><div class="product-thumbnail"><h6>Title</h6><img src="http://lorempixel.com/136/160/technics/6" alt=""></div></a>
-                <a href=""><div class="product-thumbnail"><h6>Title</h6><img src="http://lorempixel.com/136/160/technics/6" alt=""></div></a>
-                <a href=""><div class="product-thumbnail"><h6>Title</h6><img src="http://lorempixel.com/136/160/technics/6" alt=""></div></a>
-                <a href=""><div class="product-thumbnail"><h6>Title</h6><img src="http://lorempixel.com/136/160/technics/6" alt=""></div></a>
-                <a href=""><div class="product-thumbnail"><h6>Title</h6><img src="http://lorempixel.com/136/160/technics/6" alt=""></div></a>
+                <% @products.each do |product| %>
+                  <a href="/products/<%= product.id %>"><div class="product-thumbnail"><h6><%= product.name %></h6><img src="http://lorempixel.com/136/160/technics/6" alt=""></div></a>
+                <% end %>
               </div>
             </div>
           </li>

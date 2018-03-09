@@ -11,8 +11,9 @@
 
 #top-logo {
   float: left;
-  background-color: yellow;
-  width: 240px;
+}
+
+#top-logo img {
   height: 42px;
 }
 
@@ -167,6 +168,6 @@ ul {
 }
 
 /* show page */
-.product-list{
-
+.product-list>ul>li {
+  display: block;
 }
