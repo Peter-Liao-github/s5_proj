@@ -37,6 +37,7 @@ ul>li {
   padding-top: 3px;
   padding-bottom: 2px;
   border-top: 2px solid rgb(225, 225, 225);
+  min-width: 1024px;
 }
 
 ul {
@@ -163,4 +164,9 @@ ul {
 .contact {
   width: 312px;
   height: 152px;
+}
+
+/* show page */
+.product-list{
+
 }
