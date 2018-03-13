@@ -132,6 +132,10 @@ ul {
   padding-bottom: 76px;
 }
 
+#index-carousel {
+  margin-top: 2px;
+}
+
 .block-in-container {
   background-color: rgb(240, 240, 240);
   margin: 8px auto 2px auto;
@@ -147,7 +151,7 @@ ul {
   height: 350px;
 }
 
-.block-in-container h4 {
+.block-in-container h5 {
   border-bottom: 2px solid blue;
   padding-bottom: 8px;
 }
@@ -168,6 +172,23 @@ ul {
 }
 
 /* show page */
+.product-list {
+  margin: 0px 2px;
+}
+
 .product-list>ul>li {
   display: block;
+  width: 256px;
+  border: 1px solid blue;
+  text-align: center;
+}
+
+.current-path {
+  font-size: 0.7em;
+  margin-bottom: 2px;
+}
+
+.product-pdf {
+  width: 760px;
+  border: 1px solid blue;
 }
