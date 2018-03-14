@@ -114,6 +114,20 @@ ul {
   display: block;
 } */
 
+.line-qr-code {
+  position: fixed;
+  bottom: 16px;
+  right: 20px;
+  z-index: 9;
+  color: #4ECD00;
+  text-align: center;
+  transition: position 0.3ms;
+}
+
+.line-qr-code img {
+  width: 104px;
+}
+
 /* footer */
 .my-footer {
   text-align: center;

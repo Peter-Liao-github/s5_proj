@@ -1,8 +1,12 @@
-<div class="product-list ">
-  <ul>
-    <% @products.each do |product| %>
-      <li> <%= product.name%> </li>
-    <% end %>
-  </ul>
+<div class="my-container">
+  <p class="current-path">首頁>產品一覽>產品資訊</p>
+  <div class="product-list float-left">
+    <ul>
+      <% @products.each do |product| %>
+        <li> <%= product.name%> </li>
+      <% end %>
+    </ul>
+  </div>
+  <div class="product-pdf float-left">pdf block</div>
+  <div class="clearfix"></div>
 </div>
-<div class="product-pdf"></div>
