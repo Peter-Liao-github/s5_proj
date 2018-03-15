@@ -32,12 +32,12 @@
             <div class="product-show-block">
               <div class="product-show-content de-a-decorated">
                 <% @products.each do |product| %>
-                  <a href="/products/<%= product.id %>"><div class="product-thumbnail"><h6><%= product.name %></h6><img src="http://lorempixel.com/136/160/technics/6" alt=""></div></a>
+                  <a href="/products/<%= product.id %>"><div class="product-thumbnail"><h6><%= product.name %></h6><%= image_tag 'product-top.png' %></div></a>
                 <% end %>
               </div>
             </div>
           </li>
-          <li> <a href="">產品資訊</a> </li>
+          <li> <a href="/products/<%= Product.first.id if Product.first %>">產品資訊</a> </li> <!--若有產品存在-->
           <li> <a href="">客製化選用表</a> </li>
         </ul>
       </div>
