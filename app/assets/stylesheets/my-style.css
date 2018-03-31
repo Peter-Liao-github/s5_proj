@@ -104,15 +104,24 @@ ul {
   line-height: 180px;
 }
 
-.product-thumbnail img { /* 132px *160px */
-  padding-bottom: 4px;
+.thumb-bgc {
+  /* display: inline-block; */
+  background-color: #FFF;
+  width: 132px;
+  height: 164px;
   vertical-align: middle;
-  max-width: 132px;
-  max-height: 160px;
-  size: contain;
+  margin: 0 auto;
 }
 
-.product-show-content div:hover {
+.product-thumbnail img { /* 132px *160px */
+  margin: 0 auto;
+  padding-bottom: 8px;
+  vertical-align: middle;
+  max-width: 132px;
+  max-height: 156px;
+}
+
+.product-show-content>a>.product-thumbnail:hover {
   background-color: rgb(128, 128, 128);
   color: white;
 }
