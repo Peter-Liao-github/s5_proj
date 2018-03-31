@@ -70,6 +70,10 @@ ul {
   border-bottom-color: blue;
 }
 /* product show */
+.tab-product-show>span {
+  cursor: pointer;
+}
+
 .product-show-block {
   display: none;
   margin-top: -30px;
@@ -79,6 +83,7 @@ ul {
   z-index: 9;
   /* border: 2px solid black; */
   width: 79px;
+  cursor: pointer;
 }
 
 .product-show-content {
@@ -90,9 +95,9 @@ ul {
   padding: 24px 18px 12px 20px;
 }
 
-.tab-product-show:active .product-show-block,.product-show-block:hover {
+/* .product-show-block:hover, .tab-product-show:active .product-show-block {
   display: block;
-}
+} */
 
 .product-thumbnail {
   display: inline-block;
