@@ -105,9 +105,11 @@ ul {
 }
 
 .product-thumbnail img { /* 132px *160px */
+  padding-bottom: 4px;
   vertical-align: middle;
   max-width: 132px;
   max-height: 160px;
+  size: contain;
 }
 
 .product-show-content div:hover {
