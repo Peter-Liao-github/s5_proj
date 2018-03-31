@@ -216,7 +216,7 @@ ul {
 }
 
 .product-list {
-  margin: 0px 72px 2px 0px;
+  margin: 0px 36px 2px 0px;
 }
 
 .product-list>ul li {
@@ -261,6 +261,6 @@ ul {
 }
 
 .product-pdf {
-  width: 700px;
-  border: 1px solid blue;
+  width: 784px;
+  /* border: 1px solid blue; */
 }
