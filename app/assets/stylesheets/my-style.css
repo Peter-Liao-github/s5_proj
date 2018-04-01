@@ -259,7 +259,7 @@ ul {
 
 .constructing li {
   color: #B2B2B2;
-  cursor: default;
+  /* cursor: default; */
   font-weight: 0.8em;
   font-size: 0.8em;
 }
@@ -273,5 +273,30 @@ ul {
   width: 784px;
   text-align: right;
   /* border: 1px solid blue; */
+}
+
+.product-pdf a {
+  position: relative;
+  bottom: 1072px;
+  right: 16px;
+  z-index: 9;
+  background-color: #FFF;
+  color: #4f4f4f;
+  padding: 8px;
+  border: 1px #b2b2b2 solid;
+  border-radius: 4px;
+  opacity: 0.6;
+}
+
+.product-pdf a:hover {
+  color: #FFF;
+  background-color: rgb(128, 128, 128);
+  text-decoration: none;
+  opacity: 0.8;
+}
+
+.product-pdf img {
+  width: 784px;
+  height: auto;
 }
 
