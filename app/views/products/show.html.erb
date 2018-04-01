@@ -39,7 +39,9 @@
     $('#pdf-ul>li').click(function(){
       itemName = $(this).text();
       $('.product-pdf a').attr('href','/pdf/'+itemName+'.pdf');
-      $('.product-pdf img').attr('src','/pdf-tiny-cover/'+itemName+'.png');
+      $('.product-pdf img').fadeOut(200,function(){
+        $(this).attr('src','/pdf-tiny-cover/'+itemName+'.png')});
+      $('.product-pdf img').fadeIn(200);
     });
   });
 </script>

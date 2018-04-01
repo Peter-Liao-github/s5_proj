@@ -34,8 +34,8 @@
                 <!--<% @products.each do |product| %>
                   <a href="/products/<%= product.id %>"><div class="product-thumbnail"><h6><%= product.name %></h6><%= image_tag 'product-top.png' %></div></a>
                 <% end %>-->
-                <a href="/products/6"><div class="product-thumbnail"><h6>產品資訊</h6><div class="thumb-bgc"><%= image_tag 'product-top.png' %></div></div></a>
-                <a href="/products/1"><div class="product-thumbnail"><h6>PM變距系列</h6><div class="thumb-bgc"><%= image_tag 'PM變距系列.png' %></div></div></a>
+                <a href="/products/<%= Product.first.id %>"><div class="product-thumbnail"><h6>產品資訊</h6><div class="thumb-bgc"><%= image_tag 'product-top.png' %></div></div></a>
+                <a href="/products/<%= Product.first.id %>"><div class="product-thumbnail"><h6>PM變距系列</h6><div class="thumb-bgc"><%= image_tag 'PM變距系列.png' %></div></div></a>
                 <a href="/products/2"><div class="product-thumbnail"><h6>NC氣缸系列</h6><div class="thumb-bgc"><%= image_tag 'NC氣缸系列.jpg' %></div></div></a>
                 <a href="/products/3"><div class="product-thumbnail"><h6>氣缸磁力感測器</h6><div class="thumb-bgc"><%= image_tag '氣缸磁力感測器.jpg' %></div></div></a>
                 <a href="/products/4"><div class="product-thumbnail"><h6>迷你繼手系列</h6><div class="thumb-bgc"><%= image_tag '迷你繼手系列.jpg' %></div></div></a>
@@ -44,7 +44,7 @@
             </div>
           </li>
           <!--<li> <a href="/products/<%= Product.first.id if Product.first %>">產品資訊</a> </li> 若有產品存在-->
-          <li> <a href="/products/">產品資訊</a> </li>
+          <li> <a href="/products/<%= Product.first.id %>">產品資訊</a> </li>
           <li> <a href="">客製化選用表</a> </li>
         </ul>
       </div>
