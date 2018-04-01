@@ -234,10 +234,14 @@ ul {
   list-style: none;
 }  
 
+.product-list>ul>li {
+  cursor: pointer;
+}
+
 .product-list li:hover {
   color: #FFF;
   background-color: rgb(128, 128, 128);
-  transition: background-color 0.4s;
+  transition: background-color 0.3s;
 }
 
 .father-item {
@@ -267,5 +271,7 @@ ul {
 
 .product-pdf {
   width: 784px;
+  text-align: right;
   /* border: 1px solid blue; */
 }
+
