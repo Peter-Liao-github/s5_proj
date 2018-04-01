@@ -35,7 +35,7 @@
   <div class="clearfix"></div>
 </div>
 <script>
-  $(document).ready(function(){
+  window.onload = function(){
     $('#pdf-ul>li').click(function(){
       itemName = $(this).text();
       $('.product-pdf a').attr('href','/pdf/'+itemName+'.pdf');
@@ -43,5 +43,5 @@
         $(this).attr('src','/pdf-tiny-cover/'+itemName+'.png')});
       $('.product-pdf img').fadeIn(400);
     });
-  });
+  };
 </script>
