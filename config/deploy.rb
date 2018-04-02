@@ -42,7 +42,7 @@ append :linked_dirs, 'log', 'tmp/pids', 'tmp/cache', 'tmp/sockets', 'public/syst
 
 set :passenger_restart_with_touch, true
 
-set :rvm1_map_bins, %w{rake gem bundle ruby}
+set :default_env, { rvm_bin_path: '~/.rvm/bin' }
 
 namespace :deploy do
 
