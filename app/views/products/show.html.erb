@@ -35,13 +35,16 @@
   <div class="clearfix"></div>
 </div>
 <script>
-  window.onload = function(){
+  $(document).ready(function(){
     $('#pdf-ul>li').click(function(){
       itemName = $(this).text();
       $('.product-pdf a').attr('href','/pdf/'+itemName+'.pdf');
       $('.product-pdf img').fadeOut(400,function(){
-        $(this).attr('src','/pdf-tiny-cover/'+itemName+'.png')});
-      $('.product-pdf img').fadeIn(400);
+        $(this).attr('src','/pdf-tiny-cover/'+itemName+'.png');
+        $(this).ready(function(){
+          $('.product-pdf img').fadeIn(400);
+        });
+      });
     });
-  };
+  });
 </script>
