@@ -67,7 +67,7 @@ ul {
 
 .my-tabs-ul>li:hover {
   border-bottom: 2px solid;
-  border-bottom-color: blue;
+  border-bottom-color: #1B5185;
 }
 /* product show */
 .tab-product-show>span {
@@ -194,7 +194,7 @@ ul {
 }
 
 .block-in-container h5 {
-  border-bottom: 2px solid blue;
+  border-bottom: 2px solid #1B5185;
   padding-bottom: 8px;
 }
 
